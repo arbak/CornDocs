@@ -28,11 +28,11 @@ function PreviewArticle(props: PreviewProps) {
           }}
         />
       ) : (
-        <div className="flex h-full w-full flex-col justify-center p-6">
-          <p className="whitespace-nowrap text-4xl font-black text-slate-400 dark:text-slate-500">
+        <div className="flex h-full w-full flex-col justify-start p-6">
+          <p className="whitespace-wrap leading-snug text-4xl font-black text-slate-400 dark:text-primary-500">
             {title}
           </p>
-          <p className="whitespace-nowrap text-2xl font-bold text-slate-400 dark:text-slate-500">
+          <p className="whitespace-wrap text-2xl font-bold text-slate-400 dark:text-slate-400">
             {description}
           </p>
         </div>

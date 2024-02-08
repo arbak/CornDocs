@@ -60,7 +60,7 @@ export async function getStaticProps() {
 function Home({ data }: Props) {
   return (
     <article className="not-prose w-full max-w-none pt-8">
-      <section className="not-prose md:py-18 relative mx-auto max-w-6xl py-8 px-6">
+      <section className="not-prose md:py-18 relative mx-auto max-w-full py-20 px-6">
         {data.content.markdown ? (
           <Markdown article={data.content.markdown} />
         ) : (

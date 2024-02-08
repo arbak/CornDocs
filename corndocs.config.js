@@ -18,7 +18,7 @@ module.exports = {
     },
     logo: {
       src: "/static/logo.svg",
-      alt: "CornDocs Logo",
+      alt: "QE Logo",
       size: [80, 40],
     },
     mainScreen: {

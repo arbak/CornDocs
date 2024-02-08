@@ -6,11 +6,11 @@ import "#/styles/prism.css";
 import "#/styles/progress.css";
 import Layout from "#/ui/layout/Layout";
 import type { AppProps } from "next/app";
-import { Inconsolata } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 
-const font = Inconsolata({ 
+const font = IBM_Plex_Mono({ 
   subsets: ["latin"], 
-  weight: "400", // Specify the weight of the font (e.g., normal)
+  weight: "100", // Specify the weight of the font (e.g., normal)
   style: "normal" // Specify the style of the font (e.g., normal)
 });
 
