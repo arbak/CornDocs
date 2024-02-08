@@ -99,10 +99,13 @@ export async function getPostSlugs() {
 
 (async function () {
   try {
+    
     dotenv.config();
+    // const apiUrl = process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY;
+    console.log(process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY); // prints https://example.com/api
 
+    console.log(corndocsConfig.search);
     await getPostSlugs();
-
     if (
       corndocsConfig.search &&
       corndocsConfig.search.algolia_index &&
